@@ -59,7 +59,7 @@ Step 4. Compute features for genome-wide CpG sites. This script computes two fea
 $python read_variant.py chr1 0
 
 ```
-Step 5. Predicts DNAm levels of CpG sites from DNA sequence with the reference allele using trained brain-specific model.
+Step 5. Predicts DNAm levels of CpG sites from the DNA sequence with the reference allele using trained brain-specific model.
 
 ```bash
 # predict DNAm levels of CpG sites in the chunk 0 of chromosome 1 using the trained brain-specific model
